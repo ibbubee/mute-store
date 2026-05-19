@@ -1,0 +1,286 @@
+[
+  {
+    "id": "prod-fbd98bd7",
+    "slug": "jeans-shirt",
+    "name": "JEANS SHIRT ",
+    "price": 899,
+    "originalPrice": 1899,
+    "category": "jeans shirt",
+    "storeType": "gents",
+    "brand": "MUTE",
+    "style": "streetwear",
+    "description": "",
+    "material": "",
+    "fitType": "",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "/uploads/65c35df9-1087-46c6-9e87-8bd8319cb5bc-download.webp"
+    ],
+    "featured": false,
+    "trending": false,
+    "newArrival": true,
+    "limitedStock": false,
+    "tags": [],
+    "createdAt": "2026-05-17T02:11:00.518Z"
+  },
+  {
+    "id": "prod-fced9e03",
+    "slug": "black-oversized-tee",
+    "name": "BLACK OVERSIZED TEE",
+    "price": 699,
+    "originalPrice": 1399,
+    "category": "oversize t-shirt",
+    "storeType": "gents",
+    "brand": "MUTE",
+    "style": "streetwear",
+    "description": "",
+    "material": "",
+    "fitType": "",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "size": "L",
+        "stock": 0
+      }
+    ],
+    "images": [
+      "/uploads/776c9aa5-4175-48ea-8a70-2689e246fb28-OPAC-(1).webp"
+    ],
+    "featured": false,
+    "trending": false,
+    "newArrival": true,
+    "limitedStock": false,
+    "tags": [],
+    "createdAt": "2026-05-17T02:09:38.850Z"
+  },
+  {
+    "id": "prod-dbab3ab0",
+    "slug": "olive-grfeen-oversized-tee",
+    "name": "OLIVE GRFEEN OVERSIZED TEE",
+    "price": 699,
+    "originalPrice": 1399,
+    "category": "oversize t-shirt",
+    "storeType": "gents",
+    "brand": "MUTE",
+    "style": "streetwear",
+    "description": "",
+    "material": "",
+    "fitType": "OVERSIZED",
+    "sizes": [
+      {
+        "size": "L",
+        "stock": 10
+      },
+      {
+        "size": "M",
+        "stock": 0
+      }
+    ],
+    "images": [
+      "/uploads/72e59c15-09d2-4117-b15a-c3f9aa437c24-OPAC.webp"
+    ],
+    "featured": false,
+    "trending": false,
+    "newArrival": false,
+    "limitedStock": false,
+    "tags": [],
+    "createdAt": "2026-05-17T02:08:38.223Z"
+  },
+  {
+    "id": "prod-3eec25cc",
+    "slug": "oversized-tee",
+    "name": "OVERSIZED TEE",
+    "price": 699,
+    "originalPrice": 1399,
+    "category": "oversize t-shirt",
+    "storeType": "gents",
+    "brand": "MUTE",
+    "style": "streetwear",
+    "description": "",
+    "material": "",
+    "fitType": "OVERSIZED ",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "stock": 0
+      }
+    ],
+    "images": [
+      "/uploads/43e7b43e-9f64-411a-b205-b0adcc71300d-th.webp"
+    ],
+    "featured": true,
+    "trending": true,
+    "newArrival": false,
+    "limitedStock": false,
+    "tags": [],
+    "createdAt": "2026-05-17T02:07:29.251Z"
+  },
+  {
+    "id": "prod-0543d608",
+    "slug": "zara-jeans",
+    "name": "ZARA JEANS ",
+    "price": 899,
+    "originalPrice": 2499,
+    "category": "baggy jeans",
+    "storeType": "gents",
+    "brand": "MUTE",
+    "style": "streetwear",
+    "description": "",
+    "material": "",
+    "fitType": "BAGGY FIT",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "size": "36",
+        "stock": 0
+      }
+    ],
+    "images": [
+      "/uploads/f82204af-2e35-4573-a95e-2f537e89d222-3-zara.webp"
+    ],
+    "featured": false,
+    "trending": false,
+    "newArrival": true,
+    "limitedStock": false,
+    "tags": [],
+    "createdAt": "2026-05-17T01:57:16.947Z"
+  },
+  {
+    "id": "prod-5cfcc76b",
+    "slug": "zara-jeans",
+    "name": "ZARA JEANS",
+    "price": 999,
+    "originalPrice": 2399,
+    "category": "baggy jeans",
+    "storeType": "gents",
+    "brand": "MUTE",
+    "style": "streetwear",
+    "description": "",
+    "material": "JEANS -  NON STRETCH",
+    "fitType": "",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "size": "L",
+        "stock": 0
+      }
+    ],
+    "images": [
+      "/uploads/b6a05bf1-46f0-4e9b-a04e-ff0326f2d5b7-jeans-.zara.webp"
+    ],
+    "featured": false,
+    "trending": false,
+    "newArrival": true,
+    "limitedStock": false,
+    "tags": [],
+    "createdAt": "2026-05-17T01:55:38.352Z"
+  },
+  {
+    "id": "prod-699af0a7",
+    "slug": "diesel-jeans",
+    "name": "DIESEL JEANS ",
+    "price": 800,
+    "originalPrice": 2199,
+    "category": "baggy jeans",
+    "storeType": "gents",
+    "brand": "MUTE",
+    "style": "streetwear",
+    "description": "",
+    "material": "",
+    "fitType": "BOXY FIT ",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "stock": 0
+      }
+    ],
+    "images": [
+      "/uploads/9803e746-49cf-4f5b-8f56-c6da3cb43abb-OIP-(1).webp"
+    ],
+    "featured": false,
+    "trending": false,
+    "newArrival": true,
+    "limitedStock": false,
+    "tags": [],
+    "createdAt": "2026-05-17T01:54:07.211Z"
+  },
+  {
+    "id": "prod-b8415008",
+    "slug": "zara-pants",
+    "name": "zara pants",
+    "price": 999,
+    "originalPrice": 3999,
+    "category": "surplus",
+    "storeType": "gents",
+    "brand": "MUTE",
+    "style": "streetwear",
+    "description": "scracted pants",
+    "material": "jeans",
+    "fitType": "baggy fit",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 10
+      },
+      {
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "stock": 0
+      }
+    ],
+    "images": [
+      "/uploads/97371fa0-fb28-4e3f-8453-765558518ac3-zara.webp"
+    ],
+    "featured": false,
+    "trending": false,
+    "newArrival": true,
+    "limitedStock": false,
+    "tags": [],
+    "createdAt": "2026-05-16T19:22:00.491Z"
+  }
+]

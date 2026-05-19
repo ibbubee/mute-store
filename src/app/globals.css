@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+/* ─── MUTE Design Tokens ──────────────────────────────────────────────────── */
+:root {
+  /* Core palette — warm editorial dark mode */
+  --mute-ink:       #0e0c0b;   /* near-black with warmth  */
+  --mute-charcoal:  #1a1714;   /* deep section bg          */
+  --mute-stone:     #2a2623;   /* card / surface bg        */
+  --mute-ash:       #3d3836;   /* subtle borders / dividers */
+
+  /* Cream spectrum */
+  --mute-cream:     #f5f0e8;   /* primary text on dark     */
+  --mute-parchment: #ede6d4;   /* secondary / headings     */
+  --mute-linen:     #d4c9b2;   /* muted body copy          */
+  --mute-sand:      #a09282;   /* very muted, labels       */
+
+  /* Accent — MUTE maroon */
+  --mute-maroon:    #48262a;   /* primary accent           */
+  --mute-maroon-lg: #6b3a3f;   /* lighter maroon           */
+  --mute-maroon-hi: #9c5a60;   /* highlight maroon         */
+
+  /* Utility */
+  --mute-white:     #ffffff;
+  --mute-black:     #000000;
+
+  /* Legacy aliases for Tailwind classes used in JSX */
+  --mute-grey-100:  #f5f0e8;
+  --mute-grey-200:  #ede6d4;
+  --mute-grey-300:  #d4c9b2;
+  --mute-grey-400:  #a09282;
+  --mute-grey-500:  #7a6d62;
+  --mute-grey-600:  #4a403b;
+  --mute-grey-800:  #2a2623;
+  --mute-grey-900:  #1a1714;
+
+  /* Beige — used in kids page */
+  --mute-beige:     #ede6d4;
+
+  /* Foreground / background for body */
+  --foreground-rgb: 245, 240, 232;   /* cream */
+  --background-rgb: 14, 12, 11;      /* ink   */
+}
+
+/* ─── Base ────────────────────────────────────────────────────────────────── */
+body {
+  color: var(--mute-cream);
+  background: var(--mute-ink);
+  font-family: var(--font-inter), 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 0.85;
+  color: var(--mute-parchment);
+}
+
+/* ─── Typography utilities ────────────────────────────────────────────────── */
+.label-text {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: var(--mute-sand);
+}
+
+.mono-text {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  color: var(--mute-sand);
+}
+
+/* ─── Layout utilities ────────────────────────────────────────────────────── */
+.section-border {
+  padding: 6rem 0;
+  border-bottom: 1px solid var(--mute-ash);
+}
+
+.section-spacing {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.title-spacing {
+  margin-bottom: 3rem;
+}
+
+.container-pro {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-pro {
+    padding: 0 4rem;
+  }
+}
+
+/* ─── Border grid utilities ───────────────────────────────────────────────── */
+.border-grid   { border: 1px solid var(--mute-ash); }
+.border-grid-x { border-left: 1px solid var(--mute-ash); border-right: 1px solid var(--mute-ash); }
+.border-grid-y { border-top: 1px solid var(--mute-ash); border-bottom: 1px solid var(--mute-ash); }
+
+/* ─── Glass utility ───────────────────────────────────────────────────────── */
+.glass-premium {
+  background: rgba(26, 23, 20, 0.85);
+  backdrop-filter: blur(40px);
+  border: 1px solid var(--mute-ash);
+}
+
+/* ─── Marquee animation ───────────────────────────────────────────────────── */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee { animation: marquee 40s linear infinite; }
+
+/* ─── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 3px; }
+::-webkit-scrollbar-track { background: var(--mute-ink); }
+::-webkit-scrollbar-thumb { background: var(--mute-ash); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: var(--mute-sand); }
