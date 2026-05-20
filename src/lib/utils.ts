@@ -40,7 +40,7 @@ export function getWhatsAppUrl(phone: string, message: string): string {
   return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`;
 }
 
-export const WHATSAPP_NUMBER = "+919895000000"; // Replace with actual number
+export const WHATSAPP_NUMBER = "+917907603503"; // Replace with actual number
 
 export function buildWhatsAppProductMessage(
   productName: string,

@@ -50,7 +50,7 @@ export function LocationSection() {
 
               <div className="flex flex-wrap gap-8 items-center">
                 <a
-                  href="https://wa.me/919895000000"
+                  href="https://wa.me/917907603503"
                   className="flex items-center gap-3 text-[11px] font-black uppercase tracking-widest group transition-colors"
                   style={{ color: "#a09282" }}
                   onMouseEnter={e => (e.currentTarget.style.color = "#f5f0e8")}

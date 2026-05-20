@@ -36,8 +36,8 @@ export default function ContactPage() {
               {
                 icon: <MessageCircle size={20} className="text-green-400" />,
                 label: "WhatsApp",
-                value: "+91 98950 00000",
-                href: "https://wa.me/919895000000",
+                value: "+91 79076 03503",
+                href: "https://wa.me/917907603503",
                 sub: "Fastest response",
               },
               {
@@ -50,8 +50,8 @@ export default function ContactPage() {
               {
                 icon: <Phone size={20} className="text-blue-400" />,
                 label: "Phone",
-                value: "+91 98950 00000",
-                href: "tel:+919895000000",
+                value: "+91 79076 03503",
+                href: "tel:+917907603503",
                 sub: "Mon–Sat 10am–8pm",
               },
               {
@@ -107,7 +107,7 @@ export default function ContactPage() {
                   We&apos;ll get back to you within 24 hours. Or just WhatsApp us for faster help.
                 </p>
                 <a
-                  href="https://wa.me/919895000000"
+                  href="https://wa.me/917907603503"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 flex items-center gap-2 px-6 py-3 border border-green-600 text-green-400 rounded-full text-sm font-bold hover:bg-green-500/10 transition-colors"

@@ -66,7 +66,7 @@ function OrderSuccessContent() {
 
         <div className="flex flex-col sm:flex-row gap-3 mt-8">
           <a
-            href="https://wa.me/919895000000"
+            href="https://wa.me/917907603503"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-2 py-3.5 border border-green-600 text-green-400 rounded-full font-bold text-sm hover:bg-green-500/10 transition-colors"

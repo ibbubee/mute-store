@@ -34,7 +34,7 @@ export function ProductDetailClient({ product, relatedProducts }: Props) {
   const lowStock = isLowStock(product.sizes);
   const inStock = totalStock > 0;
 
-  const whatsappLink = `https://wa.me/919895000000?text=${encodeURIComponent(
+  const whatsappLink = `https://wa.me/917907603503?text=${encodeURIComponent(
     `Hi MUTE, I'm interested in the ${product.name}${
       selectedSize ? ` (Size: ${selectedSize})` : ""
     }. Is it available at the store?`
