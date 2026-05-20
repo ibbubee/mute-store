@@ -61,7 +61,7 @@ export function LocationSection() {
                   <ArrowRight size={14} className="opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all" />
                 </a>
                 <a
-                  href="https://goo.gl/maps/example"
+                  href="https://maps.app.goo.gl/P8XFiUyE16zxqyJy9"
                   target="_blank"
                   className="flex items-center gap-3 text-[11px] font-black uppercase tracking-widest group transition-colors"
                   style={{ color: "#a09282" }}
@@ -113,7 +113,7 @@ export function LocationSection() {
               Come experience the signature boxy fits in person.
             </p>
             <a
-              href="https://goo.gl/maps/example"
+              href="https://maps.app.goo.gl/P8XFiUyE16zxqyJy9"
               target="_blank"
               className="flex items-center justify-between w-full p-4 text-[10px] font-black uppercase tracking-widest transition-all"
               style={{ background: "#ede6d4", color: "#0e0c0b" }}
