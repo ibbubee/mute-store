@@ -216,8 +216,10 @@ export function ProductDetailClient({ product, relatedProducts }: Props) {
                 Reserve on WhatsApp
                 <ArrowRight size={18} className="translate-x-0 group-hover:translate-x-1 transition-transform" />
               </a>
-              <Link
-                href="/#location"
+              <a
+                href="https://maps.app.goo.gl/P8XFiUyE16zxqyJy9"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full flex items-center justify-center gap-3 py-5 font-black rounded-2xl transition-all active:scale-[0.98]"
                 style={{ border: "1px solid rgba(61,56,54,0.5)", color: "#ede6d4", background: "transparent" }}
                 onMouseEnter={e => (e.currentTarget.style.background = "#1a1714")}
@@ -225,7 +227,7 @@ export function ProductDetailClient({ product, relatedProducts }: Props) {
               >
                 <MapPin size={20} />
                 Find Store Location
-              </Link>
+              </a>
             </div>
 
             {/* Features */}
